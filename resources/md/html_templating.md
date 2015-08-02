@@ -675,6 +675,8 @@ The above will generate the following HTML:
 </form>
 ```
 
+## HTML Generation from Markdown
+
 Finally, Luminus template provides a helper function under the `<yourapp>.util` namespace called `md->html`,
 this function will read a markdown file relative to `resources/public/` folder and return an HTML string. This can
 be used in conjunction with Hiccup functions, eg:
